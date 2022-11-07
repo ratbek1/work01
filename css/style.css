@@ -1,3 +1,29 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  background: rgba(38, 39, 43, 0.33);
+  backdrop-filter: blur(27.5px);
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=style.css.map */

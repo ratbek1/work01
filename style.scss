@@ -3,3 +3,11 @@
 @import "reset";
 @import "global";
 
+#header{
+  background: rgba(38, 39, 43, 0.33);
+  backdrop-filter: blur(27.5px);
+  .header{
+    @include between;
+    $cr:white;
+  }
+}
