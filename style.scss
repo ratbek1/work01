@@ -8,6 +8,22 @@
   backdrop-filter: blur(27.5px);
   .header{
     @include between;
-    $cr:white;
-  }
+    padding: 35px 0;
+    &--logo{
+      @include logo;
+    }
+    &--input{
+      @include input;
+    }
+    &--menu{
+      position: absolute;
+      left: 50%;
+      a{
+        @include menu;
+      }
+    }
+    &--wall{
+      @include wall;
+    }
+    }
 }

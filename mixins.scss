@@ -1,5 +1,38 @@
-@mixin between{
+@mixin between {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@mixin logo {
+  color: $white;
+  position: absolute;
+
+}
+
+@mixin input {
+  position: absolute;
+  left: 15%;
+  padding: 13px 100px 13px 27px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 41px;
+  outline: none;
+  background: transparent;
+}
+
+@mixin menu {
+  color: $white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 15px;
+}
+
+@mixin wall {
+  position: absolute;
+  right: 5%;
 }

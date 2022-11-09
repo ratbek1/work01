@@ -8,10 +8,6 @@
   padding: 0;
 }
 
-body {
-  background: black;
-}
-
 a {
   text-decoration: none;
 }
@@ -24,6 +20,39 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 35px 0;
+}
+#header .header--logo {
+  color: white;
+  position: absolute;
+}
+#header .header--input {
+  position: absolute;
+  left: 15%;
+  padding: 13px 100px 13px 27px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 41px;
+  outline: none;
+  background: transparent;
+}
+#header .header--menu {
+  position: absolute;
+  left: 50%;
+}
+#header .header--menu a {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 15px;
+}
+#header .header--wall {
+  position: absolute;
+  right: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
