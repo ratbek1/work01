@@ -3,16 +3,24 @@
   align-items: center;
   justify-content: space-between;
 }
-
 @mixin logo {
-  color: $white;
-  position: absolute;
-
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 38px;
+  color: #FFFFFF;
 }
-
+@mixin log{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 1vw;
+  color: #FFFFFF;
+  position: absolute;
+  margin: 12px 0 0 55px;
+}
 @mixin input {
   position: absolute;
-  left: 15%;
+  left: 18%;
   padding: 13px 100px 13px 27px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -23,7 +31,6 @@
   outline: none;
   background: transparent;
 }
-
 @mixin menu {
   color: $white;
   font-family: 'Inter', sans-serif;
@@ -32,7 +39,78 @@
   margin: 15px;
 }
 
-@mixin wall {
-  position: absolute;
-  right: 5%;
+@mixin nft{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #EEB563;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0 35px 0;
 }
+@mixin Discover{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 116px;
+  color: #FFFFFF;
+  margin-left: 14%;
+  width: 70%;
+  text-align: center;
+}
+@mixin img{
+  position: absolute;
+  left: 66%;
+  top: 26%;
+}
+@mixin title{
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10%;
+  color: $white;
+  text-align: end;
+  position: absolute;
+}
+@mixin h3{
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: $white;
+  position: absolute;
+  left: 75%;
+  top: 140%;
+}
+@mixin h1{
+  font-family: 'Inter',sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin-top: 200px;
+  margin-left: 80px;
+}
+
+@mixin title01{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #F1B864;
+  text-align: center;
+  margin: 20% 0 0 0;
+}
+@mixin top{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #FFFFFF;
+  text-align: center;
+}
+@mixin in{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #F7A659;
+  text-align: center;
+}
+

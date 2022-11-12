@@ -3,27 +3,167 @@
 @import "reset";
 @import "global";
 
-#header{
+#header {
   background: rgba(38, 39, 43, 0.33);
   backdrop-filter: blur(27.5px);
-  .header{
+  .header {
     @include between;
     padding: 35px 0;
-    &--logo{
+    &--logo {
       @include logo;
     }
-    &--input{
-      @include input;
+    &--log {
+      @include log;
     }
-    &--menu{
+    &--img {
+      position: absolute;
+      margin: 0 0 20px 90px;
+    }
+    &--search {
+      margin-left: 28%;
+      color: $white;
+    }
+    &--input {
+      @include input;
+      color: white;
+    }
+    &--menu {
       position: absolute;
       left: 50%;
-      a{
+      a:hover {
+        color: #EEB563;
+      }
+      a {
         @include menu;
       }
     }
-    &--wall{
-      @include wall;
+    &--person {
+      margin-left: 60%;
+      color: $white;
     }
+    &--wall {
+      color: $white;
     }
+  }
+}
+#hero {
+  .hero {
+    &--img{
+      @include img;
+    }
+    &--206{
+      position: absolute;
+      left: 80%;
+      top: 32%;
+    }
+    &--star3{
+      position: absolute;
+      left: 18%;
+      top: 30%;
+    }
+    &--star03{
+      position: absolute;
+      left: 73%;
+      top: 47%;
+    }
+    &--Ellipse{
+      position: absolute;
+      left: 24%;
+      top: 56%;
+    }
+    &--border{
+      position: absolute;
+      left: 85%;
+      top: 65%;
+    }
+    &--star2{
+      position: absolute;
+      left: 23%;
+    }
+    &--nft {
+      @include nft;
+    }
+    &--Discover {
+      @include Discover;
+    }
+    &--Find{
+      @include title;
+    }
+    &--round{
+      position: absolute;
+      top: 99%;
+      left: 19%;
+    }
+    &--star7{
+      position: absolute;
+      top: 101.5%;
+      left: 20.3%;
+    }
+    &--nftImg{
+      position: absolute;
+      margin-left: 31%;
+      margin-top: 1%;
+      padding: 100px 0;
+    }
+    &--bgr{
+      margin-left: 48%;
+      margin-top: 12%;
+    }
+    &--hapebeast{
+      @include h3;
+    }
+    &--star08{
+      position: absolute;
+      left: 30%;
+      top: 180%;
+    }
+    &--ellips202{
+      position: absolute;
+      top: 105%;
+      left: 78%;
+    }
+    &--ellipse204{
+      margin-left: 2%;
+    }
+    &--png8{
+      position: absolute;
+      top: 150%;
+      left: 20%;
+    }
+    &--png7{
+      position: absolute;
+      left: 10%;
+      top: 125%;
+    }
+    &--h1{
+      @include h1;
+    }
+    &--h2{
+      margin-left: 90px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  }
+}
+#hero4{
+  .hero4{
+    &--title01{
+      @include title01;
+    }
+    &--top{
+      @include top;
+    }
+    &--in{
+      @include in;
+    }
+    &--star14{
+      position: absolute;
+      left: 55.8%;
+      top: 262.8%;
+    }
+    &--block{
+      border: 1px solid #BCBCBC;
+      border-radius: 13px;
+    }
+  }
 }
