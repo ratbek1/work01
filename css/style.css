@@ -244,6 +244,8 @@ a {
 #hero4 .hero4--block {
   border: 1px solid #BCBCBC;
   border-radius: 13px;
+  width: 26%;
+  padding: 10px 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
