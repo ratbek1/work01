@@ -6,6 +6,8 @@
 #header {
   background: rgba(38, 39, 43, 0.33);
   backdrop-filter: blur(27.5px);
+  width: 100%;
+  position: fixed;
   .header {
     @include between;
     padding: 35px 0;
@@ -68,7 +70,7 @@
     }
     &--Ellipse{
       position: absolute;
-      left: 24%;
+      left: 22%;
       top: 56%;
     }
     &--border{
@@ -150,6 +152,11 @@
     &--title01{
       @include title01;
     }
+    &--block0{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
     &--top{
       @include top;
     }
@@ -159,13 +166,241 @@
     &--star14{
       position: absolute;
       left: 55.8%;
-      top: 262.8%;
+      top: 256%;
+    }
+    &--star15{
+      position: absolute;
+      margin-left: 58%;
+      margin-top: 15%;
+    }
+    &--texend{
+      @include texend;
+
+
+    }
+    &--rec27{
+      margin-top: 7%;
+      margin-left: 15%;
     }
     &--block{
       border: 1px solid #BCBCBC;
       border-radius: 13px;
-      width: 26%;
       padding: 10px 15px;
+      margin-top: 10%;
+
+      @include block;
+      &__bored{
+        @include bored;
+      }
+      &__one{
+        @include one;
+      }
+      &__Floor{
+        @include Floor;
+      }
+      &__nombers{
+        @include nombers;
+      }
+      &__img36{
+        @include img36;
+        img{
+          margin-bottom: -5px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+#NFT-family{
+  .NFT-family{
+    &--create{
+      @include create;
+      text-align: center;
+    }
+    &--img{
+      position: absolute;
+      margin-top: -7%;
+    }
+    &--img2{
+      position: absolute;
+      margin-left: 70%;
+      margin-top: -2%;
+    }
+    &--img3{
+      position: absolute;
+      margin: 9% 9%;
+      border-radius: 15px;
+    }
+    &--img4{
+      margin: 10% 20% 10% 10%;
+      border-radius: 15px;
+    }
+    &--img5{
+      position: absolute;
+      margin-top: -5%;
+      margin-left: 20%;
+    }
+    &--family{
+      @include family;
+    }
+    &--creator{
+      @include creator;
+      margin-top: 10%;
+      text-align: center;
+      img{
+        margin-bottom: -4px;
+        margin-left: 4px;
+      }
+    }
+  }
+}
+#Recourse{
+  .Recourse{
+    &--recourse{
+      @include recourse;
+      img{
+        margin-bottom: -4px;
+      }
+    }
+    &--block{
+      @include between;
+      color: $white;
+      border-bottom: solid 1px white;
+      margin-bottom: 30px;
+      &__every{
+        @include every;
+      }
+      &__wallet{
+        @include wallet;
+        margin: 20px 0;
+      }
+      &__setup{
+        @include setup;
+        margin-top: -70px;
+        img{
+          margin-bottom: -2px;
+          padding: 0 5px;
+        }
+      }
+    }
+
+    &--Getting{
+      @include Getting;
+    }
+    &--star18{
+      position: absolute;
+      margin-left: 84%;
+      margin-top: -2%;
+    }
+    &--arint{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2%;
+      margin-bottom: 10px;
+      border-bottom: solid 1px white;
+      &__int{
+        @include int;
+        margin-bottom: 15px;
+      }
+      &__article{
+        @include int;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+#Read-More{
+  .Read-More{
+    &--title{
+      @include read;
+    }
+    &--img{
+      position: absolute;
+      margin-left: 80%;
+    }
+    &--rectagle{
+      margin-left: 7%;
+    }
+    &--star19{
+      position: absolute;
+      margin-left: 27%;
+    }
+    &--input{
+      border: 1px solid #B5B5B5;
+      border-radius: 9px;
+      background: transparent;
+      padding: 17px 150px 17px 25px;
+      color: $white;
+      margin-left: 70%;
+      margin-top: 5%;
+    }
+    &--vector{
+      margin-bottom: -23px;
+      margin-left: -55px;
+      background: #FE773B;
+      border-radius: 2px;
+      padding: 12px 12px;
+    }
+    &--block1{
+      @include between;
+      color: $white;
+      margin-top: 5%;
+      &__star21{
+        margin-left: 20%;
+      }
+      &__accaunt{
+        @include accaunt;
+        margin: 30px 0;
+      }
+      &__company{
+        @include accaunt;
+        margin-left: -40px;
+      }
+      &__stay{
+        @include stay;
+      }
+      &__logo{
+        display: flex;
+        &--sea{
+          @include sea;
+        }
+        &--rcher{
+          display: flex;
+          align-items: center;
+          margin-bottom: -15px;
+          @include rcher;
+        }
+        &--star{
+          position: absolute;
+          margin-top: -15px;
+          margin-left: 17%;
+        }
+      }
+    }
+    &--block2{
+      @include between;
+      color: $white;
+      a{
+        margin: 0 7px;
+      }
+      &__block3{
+        display: flex;
+        align-items: center;
+        &--2022{
+          @include NFT;
+        }
+        img{
+          margin-top: -30px;
+          margin-left: -7px;
+        }
+        &--ones{
+          @include ones;
+        }
+      }
+      margin: 10% 0 5% 0;
+      &__NFT{
+        @include NFT;
+      }
     }
   }
 }

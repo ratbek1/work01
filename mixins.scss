@@ -46,7 +46,7 @@
   color: #EEB563;
   display: flex;
   justify-content: center;
-  padding: 70px 0 35px 0;
+  padding: 175px 0 35px 0;
 }
 @mixin Discover{
   font-family: 'Inter',sans-serif;
@@ -112,5 +112,161 @@
   font-size: 40px;
   color: #F7A659;
   text-align: center;
+}
+@mixin block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 28%;
+}
+@mixin one{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+@mixin bored{
+  font-family: 'Inter',sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 12px 40px 12px 0;
+}
+@mixin Floor{
+  font-family: 'Inter',sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+@mixin nombers{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #21D605;
+  margin: 12px 15px;
+}
+@mixin img36{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #DC9752;
+}
+@mixin texend{
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: solid white 1px;
+  border-radius: 25px;
+  width: 11%;
+  padding: 15px 20px;
+  text-align: center;
+  margin-left: 43%;
+}
+@mixin create{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+@mixin creator{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #F1B864;
+}
+@mixin family{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  color: #FFFFFF;
+  position: absolute;
+  margin-left: 15%;
+  margin-top: -20%;
+}
+
+@mixin recourse{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #F1B864;
+  text-align: center;
+  margin-top: 10%;
+}
+@mixin Getting{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #FFFFFF;
+  text-align: center;
+}
+@mixin int{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #D29C10;
+}
+@mixin every{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+@mixin wallet{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+@mixin setup{
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+@mixin read{
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  border: solid 2px white;
+  width: 10%;
+  text-align: center;
+  margin-left: 45%;
+  padding: 20px 15px;
+  border-radius: 30px;
+  margin-top: 15%;
+}
+
+@mixin sea{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+}
+@mixin rcher{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+@mixin accaunt{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+@mixin stay{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 180%;
+}
+@mixin NFT{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+@mixin ones{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 40px;
 }
 
